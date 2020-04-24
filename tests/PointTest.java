@@ -40,12 +40,4 @@ public class PointTest {
 
         assertEquals(p.toString(), "(3, 4)");
     }
-
-    @Test
-    public void test_setName() throws Exception{
-        Line p = new Line("Teste");
-        p.setName("Oupa");
-        assertEquals(p.getName(), "Oupa");
-    }
-
 }
