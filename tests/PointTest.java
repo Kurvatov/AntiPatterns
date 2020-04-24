@@ -38,11 +38,6 @@ public class PointTest {
     public void test_ToString() throws Exception {
         Point p = new Point(3, 4);
 
-        Field fieldX = p.getClass().getDeclaredField("_x");
-        Field fieldY = p.getClass().getDeclaredField("_y");
-
-        fieldX.setAccessible(true);
-
         assertEquals(p.toString(), "(3, 4)");
     }
 
