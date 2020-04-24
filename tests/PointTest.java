@@ -8,10 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class PointTest {
 
     @Test
-    public void test_getX(){
+    public void test_getX() throws Exception{
         Point p = new Point(3, 4);
         assertEquals(p.getX(), 3);
     }
+
     @Test
     public void test_setX() throws Exception {
         Point p = new Point(3, 4);
