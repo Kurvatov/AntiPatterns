@@ -17,8 +17,8 @@ public class PointTest {
     public void test_setX() throws Exception {
         Point p = new Point(3, 4);
         p.setX(5);
+
         assertEquals(p.getX(), 5);
-        assertEquals(p.getY(),4);
     }
 
     @Test
